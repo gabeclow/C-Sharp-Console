@@ -1,0 +1,7 @@
+C:\Users\gclow\source\repos\C-Sharp Console\C-Sharp Console\bin\Debug\C-Sharp Console.exe.config
+C:\Users\gclow\source\repos\C-Sharp Console\C-Sharp Console\bin\Debug\C-Sharp Console.exe
+C:\Users\gclow\source\repos\C-Sharp Console\C-Sharp Console\bin\Debug\C-Sharp Console.pdb
+C:\Users\gclow\source\repos\C-Sharp Console\C-Sharp Console\obj\Debug\C-Sharp Console.csprojAssemblyReference.cache
+C:\Users\gclow\source\repos\C-Sharp Console\C-Sharp Console\obj\Debug\C-Sharp Console.csproj.CoreCompileInputs.cache
+C:\Users\gclow\source\repos\C-Sharp Console\C-Sharp Console\obj\Debug\C-Sharp Console.exe
+C:\Users\gclow\source\repos\C-Sharp Console\C-Sharp Console\obj\Debug\C-Sharp Console.pdb
