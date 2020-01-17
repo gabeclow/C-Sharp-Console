@@ -11,7 +11,7 @@ namespace C_Sharp_Console
 
         static void Main(string[] args)
         {
-            
+            NrepeatedElement.RunRepeatedN();
 
             Console.Read();
         }
