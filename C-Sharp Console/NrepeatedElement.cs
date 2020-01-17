@@ -28,10 +28,31 @@ namespace C_Sharp_Console
             return result;
         }
 
+        private static int RepeatedNTimesOptimal(int[] Array)
+        {
+            int result = -1;
+            Dictionary<int, int> dictionary = new Dictionary<int, int>();
+            for(int i=0; i<Array.Length; i++)
+            {
+                if (dictionary.ContainsKey(Array[i]))
+                {
+                    result = Array[i];
+                    break;
+                }
+                else
+                {
+                    dictionary.Add(Array[i], 1);
+                }
+            }
+            return result;
+        }
+
+
         public static void RunRepeatedN()
         {
             Console.WriteLine("Array: 5, 1, 5, 2, 5, 3, 5, 4");
-            int number = RepeatedNTimesNaive(array);
+            //int number = RepeatedNTimesNaive(array);
+            int number = RepeatedNTimesOptimal(array);
             Console.WriteLine(number + " is repeated");
         }
 
