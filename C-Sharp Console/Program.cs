@@ -11,10 +11,12 @@ namespace C_Sharp_Console
 
         static void Main(string[] args)
         {
-            NrepeatedElement.RunRepeatedN();
-
+            RecursiveFunctions recursive = new RecursiveFunctions();
+            recursive.printNnaturalNumbers(20);
             Console.Read();
         }
+
+
 
     }
 }

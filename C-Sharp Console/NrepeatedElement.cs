@@ -28,7 +28,7 @@ namespace C_Sharp_Console
             return result;
         }
 
-        private static int RepeatedNTimesOptimal(int[] Array)
+        private static int RepeatedNTimesDictionary(int[] Array) //# Faster than Naive approach
         {
             int result = -1;
             Dictionary<int, int> dictionary = new Dictionary<int, int>();
@@ -52,7 +52,7 @@ namespace C_Sharp_Console
         {
             Console.WriteLine("Array: 5, 1, 5, 2, 5, 3, 5, 4");
             //int number = RepeatedNTimesNaive(array);
-            int number = RepeatedNTimesOptimal(array);
+            int number = RepeatedNTimesDictionary(array);
             Console.WriteLine(number + " is repeated");
         }
 

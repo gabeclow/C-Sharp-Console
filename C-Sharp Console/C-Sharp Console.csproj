@@ -45,7 +45,9 @@
   <ItemGroup>
     <Compile Include="Delegate.cs" />
     <Compile Include="FactoryPattern.cs" />
+    <Compile Include="InsertionSort.cs" />
     <Compile Include="NrepeatedElement.cs" />
+    <Compile Include="RecursiveFunctions.cs" />
     <Compile Include="RightArrReplacement.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
