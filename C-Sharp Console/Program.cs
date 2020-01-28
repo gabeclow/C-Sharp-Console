@@ -12,7 +12,7 @@ namespace C_Sharp_Console
         static void Main(string[] args)
         {
             RecursiveFunctions recursive = new RecursiveFunctions();
-            recursive.printNnaturalNumbers(20);
+            recursive.printOddOrEvenInRange(1, 5000,1);
             Console.Read();
         }
 
