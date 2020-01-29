@@ -12,12 +12,13 @@ namespace C_Sharp_Console
         static void Main(string[] args)
         {
             RecursiveFunctions recursive = new RecursiveFunctions();
-            Console.WriteLine(recursive.isPrime(29));
-
+            List<int> list = recursive.Fib(100);
+            foreach(int i in list)
+            {
+                Console.WriteLine(i);
+            }
             Console.Read();
         }
-
-
 
     }
 }

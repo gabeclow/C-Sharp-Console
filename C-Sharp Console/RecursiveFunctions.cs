@@ -158,6 +158,37 @@ namespace C_Sharp_Console
             }
         }
 
+        public int factorial(int num)
+        {
+            if(num == 1)
+            {
+                return num;
+            }
+            else
+            {
+                return num * factorial(num - 1);
+            }
+        }
+           
+        public List<int> Fib(int num)
+        {
+            List<int> list = new List<int>();
+            return fib(num, 1, 0, list);
+        }
+
+        private List<int> fib(int finalNumber, int current, int prior, List<int> list)
+        {
+            if(current >= finalNumber)
+            {
+                list.Add(current);
+                return list;
+            }
+            else
+            {
+                list.Add(current + prior);
+                return fib(finalNumber, current + prior, current, list);
+            }
+        }
 
 
     }
