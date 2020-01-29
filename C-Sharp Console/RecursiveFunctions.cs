@@ -178,9 +178,8 @@ namespace C_Sharp_Console
 
         private List<int> fib(int finalNumber, int current, int prior, List<int> list)
         {
-            if(current >= finalNumber)
+            if(list.Count() >= finalNumber)
             {
-                list.Add(current);
                 return list;
             }
             else

@@ -12,11 +12,7 @@ namespace C_Sharp_Console
         static void Main(string[] args)
         {
             RecursiveFunctions recursive = new RecursiveFunctions();
-            List<int> list = recursive.Fib(100);
-            foreach(int i in list)
-            {
-                Console.WriteLine(i);
-            }
+            Console.WriteLine(recursive.fibonacci(43));
             Console.Read();
         }
 
