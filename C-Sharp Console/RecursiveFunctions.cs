@@ -8,24 +8,24 @@ namespace C_Sharp_Console
 {
     public class RecursiveFunctions
     {
-        
+
         //returns the element value at index
         public int fibonacci(int index)
         {
-            if(index <= 2)
+            if (index <= 2)
             {
                 return 1;
             }
             else
             {
-            return fibonacci(index - 2) + fibonacci(index - 1);
+                return fibonacci(index - 2) + fibonacci(index - 1);
             }
         }
 
         //prints down to 1 from N in the console window.
         public void printNnaturalNumbers(int n)
         {
-            if(n < 2)
+            if (n < 2)
             {
                 Console.WriteLine(n.ToString());
                 n--;
@@ -102,17 +102,61 @@ namespace C_Sharp_Console
                     break;
                 default: break;
             }
-            
-            if(min <= max)
+
+            if (min <= max)
             {
                 Console.WriteLine(min);
-                printOddOrEvenInRange(min+2, max, oddOrEven);
+                printOddOrEvenInRange(min + 2, max, oddOrEven);
             }
         }
 
-       
-        
+        public bool isPrime(int n)
+        {
+            return (isPrimeFunction(n,n/2) == 1) ? true: false;
+        }
 
+        private int isPrimeFunction(int number, int halfNumber)
+        {
+            if (halfNumber == 1)
+            {
+                return 1;
+            }
+            else
+            {
+                if (number % halfNumber == 0)
+                {
+                    return 0;
+                }
+                else
+                {
+                    return isPrimeFunction(number, halfNumber - 1);
+                }
+
+            }
+        }
+
+        public void isPalindrome(string word)
+        {
+            if (word.Length > 1)
+            {
+
+                if (word[0] == word[word.Length - 1])
+                {
+                    string temp = word;
+                    temp = temp.Remove(temp.Length - 1);
+                    temp = temp.Remove(0, 1);
+                    isPalindrome(temp);
+                }
+                else
+                {
+                    Console.WriteLine("Not a Palindrome.");
+                }
+            }
+            else
+            {
+                Console.WriteLine("Palindrome.");
+            }
+        }
 
 
 
