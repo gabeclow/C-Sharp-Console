@@ -1,0 +1,17 @@
+C:\Users\gclow\source\repos\C-Sharp Console\Test C-Sharp Console\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\gclow\source\repos\C-Sharp Console\Test C-Sharp Console\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\gclow\source\repos\C-Sharp Console\Test C-Sharp Console\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\gclow\source\repos\C-Sharp Console\Test C-Sharp Console\bin\Debug\Test C-Sharp Console.dll
+C:\Users\gclow\source\repos\C-Sharp Console\Test C-Sharp Console\bin\Debug\Test C-Sharp Console.pdb
+C:\Users\gclow\source\repos\C-Sharp Console\Test C-Sharp Console\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\gclow\source\repos\C-Sharp Console\Test C-Sharp Console\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\gclow\source\repos\C-Sharp Console\Test C-Sharp Console\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\gclow\source\repos\C-Sharp Console\Test C-Sharp Console\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\gclow\source\repos\C-Sharp Console\Test C-Sharp Console\obj\Debug\Test C-Sharp Console.csprojAssemblyReference.cache
+C:\Users\gclow\source\repos\C-Sharp Console\Test C-Sharp Console\obj\Debug\Test C-Sharp Console.csproj.CoreCompileInputs.cache
+C:\Users\gclow\source\repos\C-Sharp Console\Test C-Sharp Console\obj\Debug\Test C-Sharp Console.csproj.CopyComplete
+C:\Users\gclow\source\repos\C-Sharp Console\Test C-Sharp Console\obj\Debug\Test C-Sharp Console.dll
+C:\Users\gclow\source\repos\C-Sharp Console\Test C-Sharp Console\obj\Debug\Test C-Sharp Console.pdb
+C:\Users\gclow\source\repos\C-Sharp Console\Test C-Sharp Console\bin\Debug\C-Sharp Console.exe
+C:\Users\gclow\source\repos\C-Sharp Console\Test C-Sharp Console\bin\Debug\C-Sharp Console.pdb
+C:\Users\gclow\source\repos\C-Sharp Console\Test C-Sharp Console\bin\Debug\C-Sharp Console.exe.config

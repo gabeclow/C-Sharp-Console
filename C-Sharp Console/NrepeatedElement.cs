@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace C_Sharp_Console
 {
-    class NrepeatedElement
+    public class NrepeatedElement
     {
         private static int[] array = new int[] { 5, 1, 5, 2, 5, 3, 5, 4 };
         private static int[] array2 = new int[] { 1, 2, 3, 3 };
@@ -48,12 +48,14 @@ namespace C_Sharp_Console
         }
 
 
-        public static void RunRepeatedN()
+        public int RepeatedDictionary(int[] Array)
         {
-            Console.WriteLine("Array: 5, 1, 5, 2, 5, 3, 5, 4");
-            //int number = RepeatedNTimesNaive(array);
-            int number = RepeatedNTimesDictionary(array);
-            Console.WriteLine(number + " is repeated");
+            return RepeatedNTimesDictionary(Array);
+        }
+
+        public int RepeatedNaive(int[] Array)
+        {
+            return RepeatedNTimesNaive(Array);
         }
 
     }
