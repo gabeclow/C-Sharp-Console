@@ -8,6 +8,7 @@ namespace Test_C_Sharp_Console
     [TestClass]
     public class RecursiveFunctionsTests
     {
+        //[Timeout(15)]
         [TestMethod]
         public void fibonacci()
         {
@@ -26,8 +27,6 @@ namespace Test_C_Sharp_Console
                 Assert.AreEqual(value.Key, recursive.fibonacci(value.Value));
             }
         }
-
-
     }
 
     [TestClass]
@@ -52,13 +51,24 @@ namespace Test_C_Sharp_Console
         [TestMethod]
         public void RepeatedNaive()
         {
-            foreach (KeyValuePair<int, int[]> pair in Test)
-            {
-                Assert.AreEqual(pair.Key, repeatedObject.RepeatedNaive(pair.Value));
-            }
+            //foreach (KeyValuePair<int, int[]> pair in Test)
+            //{
+            //    Assert.AreEqual(pair.Key, repeatedObject.RepeatedNaive(pair.Value));
+            //}
+            
         }
+    }
 
-
+    [TestClass]
+    public class SelfDividingNumbersTest
+    {
+        [TestMethod]
+        public void testSelfDividingNumbers()
+        {
+            SelfDividingNumbers selfDivNumObj = new SelfDividingNumbers();
+            List<int> answerList = new List<int>() { 1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 12, 15, 22 };
+            CollectionAssert.AreEquivalent(answerList, selfDivNumObj.selfDividingNumbers(1,22));
+        }
     }
 
 
